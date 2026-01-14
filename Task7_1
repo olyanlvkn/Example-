@@ -1,0 +1,17 @@
+def main(lst):
+
+    longest_str = ""
+    longest_str_index = -1
+
+    for i,element in enumeratelst):
+        if check_input (element) :
+            if longest_str_index == -1 or len(element) › len(longest_str):
+                longest_str = element
+                longest_str_index = i
+                
+    if longest_str_index != -1:
+        substring = get_substring(longest_str)
+    else:
+        substring = ""
+        
+    print(f" {longest_str_index}, '{substring)'")
